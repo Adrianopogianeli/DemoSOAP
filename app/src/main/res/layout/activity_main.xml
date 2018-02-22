@@ -15,6 +15,16 @@
         android:layout_gravity="center"
         />
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/operacoes"
+        android:id="@+id/spOperacoes"
+        android:gravity="center"
+        >
+
+    </Spinner>
+
     <EditText
         android:id="@+id/edNumero2"
         android:hint="Entre com um valor"
@@ -23,7 +33,7 @@
         />
 
     <Button
-        android:id="@+id/btSomar"
+        android:id="@+id/btCalcular"
         android:hint="SOMAR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
